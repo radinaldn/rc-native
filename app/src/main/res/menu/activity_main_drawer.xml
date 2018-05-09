@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/alert"
+            android:title="Kirim Surat Suara" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="E-Pemilu FAQ" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/info"
+                android:title="Tentang" />
+        </menu>
+
+    </item>
+
+</menu>
